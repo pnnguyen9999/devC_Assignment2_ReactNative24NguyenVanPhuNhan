@@ -20,8 +20,8 @@ export default function App() {
           <Image style={{ height: 120, width: 120, borderRadius: 120 / 2, }} source={require('./assets/avatar.jpg')} />
         </View>
         <View style={{ margin: 10, paddingLeft: 5 }}>
-          <Text style={{ fontWeight: 'bold', fontSize: 27 }}>Floyd Hayes</Text>
-          <Text style={styles.minText}>Photographer</Text>
+          <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Nguyễn Văn Phú Nhàn</Text>
+          <Text style={styles.minText}>Student</Text>
           <View style={{ flexDirection: 'row', paddingTop: 25 }}>
             <TouchableOpacity onPress={this._onPressButton} style={styles.button1}>
               <Text style={{ color: '#ffffff' }}>Follow</Text>
